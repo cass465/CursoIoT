@@ -1,1 +1,64 @@
-[{"id":"7493e9ee.4b09e8","type":"comment","z":"7815539e.9ef41c", "name":"Node-Red y Git","info":"","x":360,"y":100,"wires":[]}]
+[
+    {
+        "id": "6bc0ae7a.4fd57",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7493e9ee.4b09e8",
+        "type": "comment",
+        "z": "6bc0ae7a.4fd57",
+        "name": "Node-Red y Git",
+        "info": "",
+        "x": 380,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "8f1eb655.e59538",
+        "type": "inject",
+        "z": "6bc0ae7a.4fd57",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "37dc00ea.405b2"
+            ]
+        ]
+    },
+    {
+        "id": "37dc00ea.405b2",
+        "type": "debug",
+        "z": "6bc0ae7a.4fd57",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 160,
+        "wires": []
+    }
+]
